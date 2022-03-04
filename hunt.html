@@ -2,7 +2,7 @@
   @Author: Kiran Gundapuneni
   @Date:   2022-03-03 22:43:39
   @Last Modified by:   Your name
-  @Last Modified time: 2022-03-03 23:00:54
+  @Last Modified time: 2022-03-04 11:24:25
 -->
 <!DOCTYPE html>
 <html>
@@ -17,9 +17,12 @@
     </head>
     <body>
         <h1 class="p-3 text-center">Bird hunt by Kiran Gundapuneni</h1>
-        <p class="text-center">Click on the squares to search for a bird</p>
-        <p class="text-center" id="shakes">Number of shakes is zero</p>
-        <p class="text-center" id="score">Location score is unknown</p>
+        <div class="container-fluid">
+            <div class="d-inline p-2 bg-warning text-black centre">Click on the squares to search for bird.</div>
+            <div class="d-inline p-2 bg-primary text-white" id="shakes"> Number of shakes is zero.</div>
+            <div class="d-inline p-2 bg-success text-white" id="score"> Location score is unknown.</div>
+        </div>
+        <br>
         <div class="image-grid d-flex flex-column justify-content-center align-items-center">
             <div class="row">
                 <div class="img-fluid"><img src="tree.jpg" height="100" width="100" alt="A tree picture"></div>
